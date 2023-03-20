@@ -1,0 +1,8 @@
+.firstSection {
+    background-color: #1b2024;
+    color: white;
+}
+
+.firstSection .card {
+    border: 1px solid white !important;
+}

@@ -1,0 +1,47 @@
+/* START HEADER */
+header {
+    background-color: #1b2024;
+    min-height: 100vh;
+    color: white;
+}
+
+header span {
+    font-size: 0.6rem;
+    color: #ff8311;
+}
+
+header h1 {
+    font-size: 1.3rem;
+}
+
+header h4 {
+    font-size: 0.9rem;
+}
+
+header .image {
+    max-width: 380px;
+}
+
+
+
+.btn-warning {
+    background-color: #ff8311 ;
+    border: #964800;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #fa9537 ;
+}
+
+@media screen and (max-width: 576px) {
+    header .image { 
+        max-width: 250px;
+        margin-top: -60px;
+    }
+    .textoHeader {
+        max-width: 300px;
+    }
+}
+
+/* END HEADER */
